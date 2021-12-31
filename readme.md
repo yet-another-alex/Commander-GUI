@@ -4,15 +4,24 @@
 Lots of projects require some form of termina/console GUI, so I decided to create a reusable copy-paste-done-type of solution.
 See *usage in your own project* below to get started. It's MIT License, so do whatever with it - but if it's a cool thing, please let me know.
 
+![Main GUI](https://raw.githubusercontent.com/yet-another-alex/Commander-GUI/main/screens/screen.png)
+
 ## Running the examples
 
 Clone the repo or download the files and simply run *main.py*.
 The window will open and the focus is set to the text entry widget automatically. You can start typing immediately and see what happens.
 When pressing *Enter/Return*, the command is processed.
 Type **help** to see all available commands in the examples.
+
+![the help command](https://raw.githubusercontent.com/yet-another-alex/Commander-GUI/main/screens/screen_help.png)
+
 When pressing *Escape*, the application will prompt for confirmation and quit afterwards.
 
+![Trying to quit the app](https://raw.githubusercontent.com/yet-another-alex/Commander-GUI/main/screens/screen_quit.png)
+
 Some commands accept arguments that will be processed as well, e.g. try typing *name*, *name John* and *name John Doe* to see how arguments are working.
+
+![Arguments example using the go command](https://raw.githubusercontent.com/yet-another-alex/Commander-GUI/main/screens/screen_go.png)
 
 ## Building a project around it
 
